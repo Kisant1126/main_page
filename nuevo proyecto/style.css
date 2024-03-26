@@ -1,0 +1,211 @@
+/* Here is the heigth of the body*/
+body {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*here is the header of the page*/
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+/*this place is the end of the header*/
+/*this section is the principal content*/
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.principal {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1F2937;
+    align-items: center;
+    gap: 100px;
+}
+
+.content {
+    width: 400px;
+    color:#f9faf8;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image {
+    box-sizing: border-box;
+    color:#f9faf8;
+    flex-shrink: 0;
+    color: #1F2937;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color:#3882f6 ;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    color: #f9faf8;
+    border: 1px solid #3882f6;
+    font-size: 18px;
+}
+/*here is the finalization of the first section*/
+/*Here is the start of the second section*/
+.secundary {
+    flex: 1;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 1000;
+    color:#1F2937;
+    margin: 0;
+    padding: 30px;
+}
+
+.random {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 60px;
+}
+
+.square {
+    border:4px solid #3882f6;
+    border-radius: 10%;
+    width:150px;
+    padding: 16px;
+    height: 150px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    max-width: 150px;
+    gap: 2;
+}
+/*here is the end of the second section*/
+/*Here is the start of section*/
+.third {
+    background-color: #e5e7eb;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.quote {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.uwu {
+    font-size: 36px;
+    color:#1F2937;
+    font-style:italic;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    align-self: flex-end;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+/*Here is the finalization for this section*/
+/*Here is the start of the section*/
+.four {
+    background-color: #f9faf8;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-button {
+    border: 2px solid white;
+}
+
+.container {
+    background-color: #3882f6;
+    flex: .7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 4px;
+    gap:100px;
+}
+
+.anunce h4 {
+    color: #f9faf8;
+}
+
+.anunce {
+    padding: 50px;
+}
+
+.learn {
+    padding:30px;
+}
+/*Here is the end of the section*/
+/*Here is the start of the section*/
+.footer {
+    background-color: #1F2937;
+    flex:.2;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*here is the end of the section*/
+img {
+    width: 650px;
+    height: auto;
+}
